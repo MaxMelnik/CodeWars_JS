@@ -1,9 +1,4 @@
-const bind = require('./bind');
+const digital_root = require('./sumOfDigits');
 
-function logPerson(info) {
-    console.log(`Person: ${this.name}, ${this.age}, ${info}`);
-}
+console.log(digital_root(123456789));
 
-const person1 = {name: 'You', age: 27};
-
-bind(person1, logPerson)('text');
