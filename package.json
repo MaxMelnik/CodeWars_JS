@@ -1,0 +1,19 @@
+{
+  "name": "codewars_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxMelnik/CodeWars_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxMelnik/CodeWars_JS/issues"
+  },
+  "homepage": "https://github.com/MaxMelnik/CodeWars_JS#readme"
+}
