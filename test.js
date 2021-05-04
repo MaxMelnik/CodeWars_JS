@@ -1,3 +1,9 @@
-const createPhoneNumber = require('./createPhoneNumber');
+const bind = require('./bind');
 
-console.log(createPhoneNumber([1, 2, 3, 4 , 5, 6, 7, 8, 9, 0]));
+function logPerson(info) {
+    console.log(`Person: ${this.name}, ${this.age}, ${info}`);
+}
+
+const person1 = {name: 'You', age: 27};
+
+bind(person1, logPerson)('text');
