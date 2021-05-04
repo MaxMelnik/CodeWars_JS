@@ -1,4 +1,5 @@
-const digital_root = require('./sumOfDigits');
+const whoIsNext = require('./DoubleCola');
 
-console.log(digital_root(123456789));
+let names = ["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"];
+console.log(whoIsNext(names, 7));
 
